@@ -22,7 +22,7 @@ class MainAty : AppCompatActivity() {
         false
     }
 
-    var count: Int = 0
+    private var count: Int = 0
     private var currentTime: Long = 0L
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
